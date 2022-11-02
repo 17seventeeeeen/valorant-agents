@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Druk Wide";
+  src: url("/fonts/webfontkit-20221101-125629/fontsfree-net-druk-wide-medium-webfont.woff");
+}
+
+img {
+}
+
+body {
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #1f2326;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content__logo {
+  margin-left: 40px;
+}
+
+.navbar-items {
+  margin-left: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.navbar-login {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.navbar-login__name {
+  margin-left: 16px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.agents {
+  background-image: url("/images/background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.title {
+  transform: rotate(90deg);
+  margin-left: 10px;
+  position: absolute;
+  font-family: "Druk Wide";
+  font-weight: 500;
+  font-size: 110px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  top: 308px;
+  left: -140px;
+}
+
+.agents-card {
+  width: 350px;
+  height: 600px;
+  display: flex;
+  position: relative;
+  margin-left: 100px;
+  padding-left: 10px;
+  margin-top: 150px;
+}
+
+.country {
+  transform: rotate(90deg);
+  font-size: 32px;
+  color: #ff4656;
+  position: absolute;
+  width: 300px;
+  right: 138px;
+  top: 171px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Druk Wide";
+}
+
+.agent-phoenix {
+  transform: rotate(90deg);
+  position: absolute;
+  font-size: 46px;
+  right: 160px;
+  top: 132px;
+  letter-spacing: 0.1em;
+  font-weight: 500px;
+  font-family: "Druk Wide";
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.agent-jett {
+  transform: rotate(90deg);
+  position: absolute;
+  font-size: 46px;
+  right: 234px;
+  top: 57px;
+  letter-spacing: 0.1em;
+  font-weight: 500px;
+  font-family: "Druk Wide";
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+.agent-sova {
+  transform: rotate(90deg);
+  position: absolute;
+  font-size: 46px;
+  right: 225px;
+  top: 65px;
+  letter-spacing: 0.1em;
+  font-weight: 500px;
+  font-family: "Druk Wide";
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+.agent-sage {
+  transform: rotate(90deg);
+  position: absolute;
+  font-size: 46px;
+  right: 225px;
+  top: 61px;
+  letter-spacing: 0.1em;
+  font-weight: 500px;
+  font-family: "Druk Wide";
+  color: transparent;
+  -webkit-text-stroke: 1px #1f2326;
+}
+
+.abilities {
+  background-color: #1f2326;
+  width: 270px;
+  height: 60px;
+  position: absolute;
+  /* bottom: 124px;
+  left: 151px; */
+  border: 1px solid #f8f8f8;
+  top: 556px;
+  left: 41px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.phoenix-1,
+.phoenix-2 {
+  height: 55px;
+}
+
+.phoenix-3,
+.phoenix-4 {
+  height: 40px;
+  padding-top: 10px;
+}
+
+.jett-1,
+.jett-2 {
+  height: 45px;
+  padding-top: 5px;
+}
+
+.jett-3,
+.jett-4 {
+  height: 40px;
+  padding: 5px;
+}
+
+.sova-1 {
+  /* height: 100px; */
+  width: 40px;
+  padding-bottom: 10px;
+}
+.sova-2 {
+  /* height: 100px; */
+  width: 80px;
+}
+
+.sova-3 {
+  height: 35px;
+  padding-top: 5px;
+}
+
+.sova-4 {
+  height: 40px;
+  padding-top: 5px;
+}
+
+.sage-1 {
+  height: 45px;
+  padding-top: 5px;
+}
+
+.sage-2{
+  height: 30px;
+  padding-top: 10px;
+}
+
+.sage-3,.sage-4{
+  height: 45px;
+  padding-top: 5px;
+}
+
+.abilities-sage {
+  background-color: #f8f8f8;
+  width: 260px;
+  height: 60px;
+  position: absolute;
+  /* bottom: 124px;
+  left: 600px; */
+  border: 1px solid #1f2326;
+}
+
+.card-phoenix {
+  margin-left: 350px;
+}
